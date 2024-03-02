@@ -1,0 +1,40 @@
+/* 
+    Syntax for CSS
+    selector {
+        property: value;
+    }
+*/
+
+/* Universal Selector */
+*{
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+}
+
+/* Tag selector */
+h1, p {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ID selector */
+#profile{
+    height: 240px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+body{
+    background-image: url("images/bg.png")
+}
+
+/* viewport height (vh) determines or measures the percentage of the height of the device you are viewing your webpage in */
+/* flex-direction: column - arranges flex items into a column */
+/* justify-content arranges the elements horizontally if the flex items are in row; however, it arranges elements vertically if the flex are in a column */
+
+#landing {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
